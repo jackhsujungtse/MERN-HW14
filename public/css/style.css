@@ -1,0 +1,37 @@
+.header{
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  vertical-align: center;
+}
+.header h1{
+  font-family: Georgia, 'Rockwell', Times, serif;
+  color: whitesmoke;
+  font-weight: 600;
+  padding-top: 20px;
+} 
+ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: black 5px solid;
+  color: black;
+}
+ul li:hover{
+  background: grey;
+  color: white;
+}
+.detail{
+  width: 80%;
+  height: 500px;
+  background: grey;
+  padding-top: 200px;
+  text-align: center;
+}
+.detail div{
+    margin-bottom: 30px;
+}
+.booktitle{
+  font-size: h5;
+  font-weight: bold;
+  color: white;
+}
